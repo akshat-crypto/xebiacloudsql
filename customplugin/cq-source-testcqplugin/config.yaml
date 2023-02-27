@@ -1,0 +1,16 @@
+kind: source
+spec:
+  name: xkcd
+  registry: local
+  path: C:/Users/DEREK/Desktop/XebiaProj/CloudQuery/customplugin/cq-source-testcqplugin/cq-source-testcqplugin.exe
+  version: v1.0.0
+  destinations: ["sqlite"]
+  spec:
+---
+kind: destination
+spec:
+  name: sqlite
+  path: cloudquery/sqlite
+  version: v1.2.3
+  spec:
+    connection_string: ./db.sqlite
