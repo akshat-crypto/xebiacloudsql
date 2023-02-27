@@ -7,5 +7,5 @@ database:
   password: 1234
 providers:
   aws:
-    access_key_id: AKIA5EFV3QPYD455JIL5
-    secret_access_key: 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
+    access_key_id: AK
+    secret_access_key:YdR
